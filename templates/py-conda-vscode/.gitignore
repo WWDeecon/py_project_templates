@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+# VS Code
+.vscode/*
+!.vscode/settings.json
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+name: __ENV_NAME__
+channels:
+  - conda-forge
+dependencies:
+  - __PYTHON_SPEC__
+  - pandas
+  - openpyxl
+  - python-docx
+  - ruff
+  - mypy
+  - pytest
+  - pre-commit
