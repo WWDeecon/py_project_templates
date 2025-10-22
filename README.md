@@ -7,11 +7,11 @@ A collection of project templates and tools for quickly scaffolding Python proje
 Create a new Python project using PowerShell:
 
 ```powershell
-.\scripts\New-PyProj.ps1 -Name "MyProject"
+C:\Dev\py_project_templates\scripts\New-PyProj.ps1 -Name "MyProject"
 ```
 
 This will:
-1. Create project at `C:\Dev\Deecon\MyProject`
+1. Create project in `C:\Dev\Deecon\MyProject`
 2. Set up a Conda environment named `MyProject_env`
 3. Initialize git repository
 4. Configure VS Code settings
@@ -20,17 +20,17 @@ This will:
 
 ### Basic Usage (Named Conda Environment)
 ```powershell
-.\scripts\New-PyProj.ps1 -Name "DataAnalysis"
+C:\Dev\py_project_templates\scripts\New-PyProj.ps1 -Name "DataAnalysis"
 ```
 
 ### Local Virtual Environment
 ```powershell
-.\scripts\New-PyProj.ps1 -Name "DataAnalysis" -LocalVenv
+C:\Dev\py_project_templates\scripts\New-PyProj.ps1 -Name "DataAnalysis" -LocalVenv
 ```
 
 ### Custom Organization and Location
 ```powershell
-.\scripts\New-PyProj.ps1 -Name "DataAnalysis" -Org "ClientA" -Root "D:\Projects"
+C:\Dev\py_project_templates\scripts\New-PyProj.ps1 -Name "DataAnalysis" -Org "ClientA" -Root "D:\Projects"
 ```
 
 ## Parameters
