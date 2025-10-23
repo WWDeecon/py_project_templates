@@ -2,7 +2,7 @@ name: __ENV_NAME__
 channels:
   - conda-forge
 dependencies:
-  - __PYTHON_SPEC__
+  - python=3.13
   - pandas
   - openpyxl
   - python-docx
